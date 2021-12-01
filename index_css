@@ -1,0 +1,88 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container > * {
+    flex: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container .about {
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    display: flex;
+    text-align: left;
+}
+
+.flex-container .cns_heading {
+    align-items: flex-end;
+    display: flex;
+    flex: 1 50%;
+    flex-flow: row wrap;
+    text-align: right;
+}
+
+.flex-container .cns_logo { 
+    display: flex;
+    flex: 1 50%;
+    justify-items: left;
+}
+
+.flex-container .consultation{
+    color: black;
+    flex: 50%;
+    text-align: left;
+}
+.flex-container .installation {
+    flex: 50%;
+    text-align: left;
+
+}
+.flex-container .planning {
+    color: black;
+    flex: 50%;
+    text-align: left;
+}
+.flex-container .servicehours {
+    color: black;
+    flex: 50%;
+    text-align: left;
+}
+.flex-container .services {
+    border-bottom: 1px solid rgb(161, 29, 29);
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.navigation) {
+    background-color: orange;
+}
+
+.navigation {
+    background-color: orange;
+    display: flex;
+    flex: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    width: 100%;
+}
